@@ -1,18 +1,25 @@
 {% extends "base.html" %}
 
-{% block content %}
-
-
+{%  block content %}
 <html>
 <head>
-<title> Главная страница </title>
+    <meta charset="UTF-8">
+   <title> Download </title>
 </head>
-   <body>
-      <form action = "http://localhost:5000/uploader" method = "POST"
-         enctype = "multipart/form-data">
-         <input type = "file" name = "filee" />
-         <input type = "submit"/>
-      </form>
-   </body>
-</html>
-{% endblock  %}
+<body>
+   <h1>Download</h1>
+	<h2></h2>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<div class="example-2">
+		<div class="form-group">
+		<input type="file" name="file" id="file" class="input-file">
+			<label for="file" class="btn btn-tertiary js-labelFile">
+				<i class="icon fa fa-check"></i>
+				<span class="js-fileName">Загрузить файл</span>
+			</label>
+		</div>
+	</div>
+	<p class="what"></br></br></br></br>
+</br></br>	Download your file. </br>NLP-algorithm will give you key wirds and emotional coloring.</p>
+</body>
+{% endblock %}
