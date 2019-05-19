@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST', 'GET'])
 def hello_world():
-    return render_template("upload.html", Task="Download")
+    return render_template("upload.html")
 
 @app.route('/loading')
 def upload_file():
