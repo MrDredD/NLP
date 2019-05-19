@@ -1,0 +1,125 @@
+body{
+	
+	background-color: #EDEDED;
+}
+.top{
+	background-color: #282828;
+	
+}
+h1 { 
+	color: #111; 
+	font-family: ‘Raleway’, sans-serif; 
+	font-size: 100px; 
+	font-weight: bold;
+	 letter-spacing: -1px;
+	 line-height: 1; 
+	 text-align: center; 
+	 }
+
+h2 { 
+	color: #111; 
+	font-family: ‘Raleway’, sans-serif; 
+	font-size: 60px; font-weight: 300; 
+	line-height: 32px; 
+	text-align: center; 
+	}
+
+p  { 
+	color: black; 
+	font-family: ‘Helvetica Neue’, sans-serif; 
+	font-size: 20px; line-height: 24px; 
+	margin: 0 0 24px; 
+	text-align: center; 
+	text-justify: inter-word; 
+	padding: 50px; 
+	
+	}
+
+.what{
+	
+	margin-left: 300px;
+	margin-right: 300px;
+	
+}
+
+.what1{
+	background-color: white;
+	margin-left: 300px;
+	margin-right: 300px;
+	box-shadow: 5px 5px 3px #808080 ;
+	
+}
+
+a { 
+	color: black; 
+	text-decoration: underline; 
+	}
+
+a:hover { 
+	color: #c8c8c8; 
+	text-decoration: underline; 
+	}
+
+
+.buttonplus {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  
+  margin: 10px 20px;   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165,.84,.44,1);
+  text-decoration:none;
+}
+.buttonplus:hover{
+	color: #C0C0C0;
+	text-decoration: none;
+	
+}
+
+.example-2 .btn-tertiary{
+	color:#555;padding:0;
+	line-height:40px;
+	width:300px;margin:auto;
+	display:block;
+	border:2px solid #555
+	}
+
+
+.example-2 .btn-tertiary:hover,.example-2 .btn-tertiary:focus
+{
+	color:#888;
+	border-color:#888
+	}
+
+
+.example-2 .input-file{
+	width:.1px;
+	height:.1px;opacity:0;
+	overflow:hidden;
+	position:absolute;
+	z-index:-1
+}
+
+
+.example-2 .input-file + .js-labelFile{
+	overflow:hidden;text-overflow:ellipsis;
+	white-space:nowrap;
+	padding:0 10px;
+	cursor:pointer}
+
+
+.example-2 .input-file + .js-labelFile .icon:before{
+	content:"\f093"
+	}
+
+
+.example-2 .input-file + .js-labelFile.has-file .icon:before{
+	content:"\f00c";
+	color:#5AAC7B
+	}
+.example-2 .input-file + .js-labelFile.has-file .icon:before{content:"\f00c";color:#5AAC7B}
