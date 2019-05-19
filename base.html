@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title> NLP Project </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stil.css') }}"/>
 </head>
-<body>
-<div id='header'>
 
-    <a href="/">  Главная</a>
-    <a href="about"> О проекте </a>
-</div>
-<div id='content'>
-    <p>{% block content %}{% endblock %}</p>
-</div>
-<div id='footer'>
-Футер
-</div>
+
+<body>
+	<div class="top">
+		<a href="/" class="buttonplus">main</a>
+		<a href="about" class="buttonplus">about</a>
+	</div>
+	{% block content %}
+	
+	{% endblock %}
+	
 </body>
 </html>
