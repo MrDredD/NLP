@@ -1,13 +1,21 @@
-{%  extends "base.html" %}
-
-{% block content %}
+{%  block content %}
+<!DOCTYPE html>
 <html>
-<h1> Loaded</h1>
-<h1> Let's see, what do we have:</h1>
-    <h>Keywords:</h>
-    {{ key }}
-    <h>Sentiment:</h>
-    {{ sent }}
+<head>
+    <meta charset="UTF-8">
+    <title> NLP Project </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
 
+
+<body>
+	<h1>Document analysis </h1>
+	<h2>Key words of the document:</h2>
+	<p >{{keyword}}</p>
+	<h2>Emotional coloring:</h2>
+	<p>{{emo}}</p>
+
+</body>
 </html>
+
 {% endblock %}
