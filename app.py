@@ -64,8 +64,10 @@ def upload_text():
             #file saves, include main
 
             document_to_process = []
-            
+            document_to_process.append(destination)
             for doc_name in document_to_process:
+                print(doc_name)
+                print(type(doc_name))#str
                 doc = preprocessing(doc_name)
                 keywords = compute_tfidf(get_corpus(), doc, KEYWORD_AMOUNT)
                 sentiment = get_sentiment(doc)
