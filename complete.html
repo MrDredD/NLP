@@ -12,7 +12,9 @@
 <body>
 	<h1>Document analysis </h1>
 	<h2>Key words of the document:</h2>
+    {% for keyword in keywords %}
 	<p >{{keyword}}</p>
+    {%  endfor %}
 	<h2>Emotional coloring:</h2>
 	<p>{{emo}}</p>
 
